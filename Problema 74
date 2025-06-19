@@ -1,0 +1,14 @@
+# El programa recibe dos números y verifica si el primero es divisible por el segundo
+
+# Entrada de datos
+a = int(input("Ingrese el número a: "))
+b = int(input("Ingrese el número b: "))
+
+# Verificación con módulo y estructura condicional
+if b != 0:
+    if a % b == 0:
+        print("a es divisible por b")
+    else:
+        print("a no es divisible por b")
+else:
+    print("No se puede dividir por cero")
